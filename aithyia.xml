@@ -15,7 +15,7 @@
 			<species> L. argentalus, the Herring gull </species>
 			<modern_authority> Kruper </modern_authority>
 			<reasoning>
-				abundant during the winter and breeds about the middle of April 
+				<insert>abundant during the winter and breeds about the middle of April </insert>
 			</reasoning>
 		</bird>
 
@@ -23,8 +23,9 @@
 			<modern_authority> Netolicka </modern_authority>'s Hypothesis
 			<species> Merganser </species> 
 			<reasoning>
-				Do not tally with 
-				<ancient_authority> Aristotle </ancient_authority>
+				<insert>Do not tally with 
+					<ancient_authority> Aristotle </ancient_authority>
+				</insert>
 			</reasoning>
 		</bird>
 
@@ -39,39 +40,123 @@
 
 		<bird>
 			<modern_authority> Schneider </modern_authority>'s identification with
-			<species> skua, Lestris Parasiticus </species> fails
+			<species> Skua, Lestris Parasiticus </species> 
 			<reasoning>
-				as the latter does not dive <modern_authority>(vide Buchholz,
+				fails inasmuch as the latter does not dive <modern_authority>(vide Buchholz,
 				op.cit. pp. 112, 113) </modern_authority> 
 				nor does it breed in the Mediterranean
 			</reasoning> 
 		</bird>
 		
-		<!--I am not really sure how Common Tern is tied to his arguments-->
+		The Herring Gull is abundant during the winter and breeds about the middle of April: 
 		<bird>
 			<species>Common Tern (Sterna anglica)</species>
 			<reasoning>
-				lays about the same time  <!--(as the Herring gull)-->
-				(<modern_authority> Krüper </modern_authority>) 
+				lays about the same time <insert>as the Herring gull</insert>
+				<modern_authority> Krüper </modern_authority> 
 				but in the lagoons and not on the cliffs.
 			</reasoning>
 		</bird> 
 
+	<ancient_authorities>
+		<ancient_authority id="0" type="myth">  
+			<work>Οdyssey</work> <!-- Technically, the author here is Homer, but usually people just cite "Odyssey" or Iliad without an author -->
+			<ref>5. 337 and 353</ref>
+			<URL> http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:1.1-1.43</URL>				
+		</ancient_authority> 
 
-		<!--TODO-->
-		<ancient_authorities>
-			<ancient_authority> myth </ancient_authority> 
-			<reference> 
-				Οdyssey 5. 337 and 353
-				<URL> http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:1.1-1.43
-				</URL>				
-			</reference>
+		<ancient_authority id="1" type="scientific"> 
+			<author>Aristotle</author>
+			<work>History of Animals</work>,<ref> 5.9, 542b</ref>
+			<quotation>"The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring, just after the winter solstice, and it broods over its eggs as birds do in general. And neither of these birds resorts to a hiding-place." (ἡ δʼ αἴθυια καὶ οἱ λάροι τίκτουσι μέν ἐν ταῖς περὶ θάλατταν πέτραις, τὸ μέν πλῆθος δύο ἢ τρία· ἀλλʼ ὁ μέν λάρος τοῦ θέρους, ἡ δʼ αἴθυια ἀρχομένου τοῦ ἔαρος...) </quotation>
+		</ancient_authority>
+					
+		<ancient_authority id="2" type="scientific">
+			[cf. <emph>Mergus</emph>, 
+			<author>Plin.</author> 
+			<ref>x. 32 (48)</ref>] <!--  this bit  in Greek is actually Darcy's comment on the Pliny passage, it means more or less "Pliny says the same thing as Aristotle and he likely got his information from the same source" I don't think we should mark that up as anything-->εὐθὺς ἐκ τροπῶν. οὐδέτερον δέ φωλεύει. Also idem 
+			<ref>1, 487</ref>;<ref>8.3</ref>, <ref>593 b.</ref> <!-- the three refs at the end are other bits of Pliny that says the same thing as the previous ref, so I don't think  they need another author  tag since it's the same. Also, there is only one work preserved by Pliny, so people don't bother writing the title. In case that's important, the title is "Naturalis Historia"--> 
+		</ancient_authority>
+					
+					
+		<ancient_authority id="3" type="scientific">
+			<author>Αrrian</author>, 
+			<work>Peripl.</work> 
+			<ref>ed. Didot, 1855, i. p. 395</ref>,
+			<summary>names it with λάροι and κορῶναι αἱ θαλάσσιοι</summary>
+		</ancient_authority>, and 
 
-			<ancient_authority> Aristotle </ancient_authority>
-				<reference> History of Animals, 5.9, 542b
-					"The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring, just after the winter solstice, and it broods over its eggs as birds do in general. And neither of these birds resorts to a hiding-place." (ἡ δʼ αἴθυια καὶ οἱ λάροι τίκτουσι μέν ἐν ταῖς περὶ θάλατταν πέτραις, τὸ μέν πλῆθος δύο ἢ τρία· ἀλλʼ ὁ μέν λάρος τοῦ θέρους, ἡ δʼ αἴθυια ἀρχομένου τοῦ ἔαρος...) [cf. <emph>Mergus</emph>, Plin. x. 32 (48)] εὐθὺς ἐκ τροπῶν. οὐδέτερον δέ φωλεύει. Also idem 1, 487; 8.3, 593 b. Αrrian, Peripl. ed. Didot, 1855, i. p. 395, names it with λάροι and κορῶναι αἱ θαλάσσιοι, and Hesych. renders aἴθυιαι by εἰνάλιαι κορῶναι. Frequent in the Gk. Anthol.; e.g. Glauc. vi, vol. iii. p. 58 ὄλετο γὰρ σὺν νηὶ, τὰ δʼ ὁστέα ποῦ ποτʼ ἐκείνου fπύθεται, αἰθυίαις γνωστὰ μόναις ἐνέπειν, cf. Marc. Arg. xxxi, ibid. ii. p. 250; Callim. xci; Leon. Tar. xci, Gk. Αnthol. i. p. 178 τὸν αἰθυίης πλείονα νηξάμενον: Anon. ibid. iv. p. 143 σήραγγος ἀλίκτυπον ὁς τόδε ναίεις εὐστιβές ἀἰθυίαις ἰχθυβόλοισι λέπας. Phile, De Anim. Pr. 68o, is hostile to πελαργός and κρέξ. Is said to be deaf and dumb, Aristoph. Hist. Anim. Epit. i. 141. The metamorphosis of Hyperippa, daughter of Munychus, Νicander ap. Anton. Lib. Met. 14. Αrat. Phen.918, a sign of rain; πολλάκις δʼἀγριάδες νῆσσαι εἰναλίδιναι οἴθυιαι χερσαῖα τινάσσονται ππrερύγεσσιν: cf Theophr. De Sign. ii. 28, Virg. Georg. i 362. Α lοng but unsatisfactory description in Dion. De Avib. ii. 5. Α title or epithet of Athene, Paus.  1.5.3 , 1.41.6. Said to be the name of a horse in Mnasalc. xiii.Gk. Anthol. i. p. 125. See also δύππτης, λάρoς.
-				</reference>
-		</ancient_authorities>
+		<ancient_authority id="4" type="lexicography">
+			<author>Hesych.</author>
+			<summary>renders aἴθυιαι by εἰνάλιαι κορῶναι</summary>
+		</ancient_authority>. Frequent in the 
+
+		<ancient_authority id="5" type="poetry">
+			<work>Gk. Anthol.<!-- In this particular case, there is one work containing multiple authors, instead of the other way around. The Greek Anthology is an ancient collections of poems from various authors --></work>; e.g. 	
+			<author>Glauc.</author> 
+			<ref>vi, vol. iii. p. 58</ref> 
+			<quotation>ὄλετο γὰρ σὺν νηὶ, τὰ δʼ ὁστέα ποῦ ποτʼ ἐκείνου fπύθεται, αἰθυίαις γνωστὰ μόναις ἐνέπειν,</quotation> cf. <!-- cf. means "confer" ("compare", it just means that the list that follows are similar passages -->
+			<author>Marc. Arg.</author> 
+			<ref>xxxi,ibid. ii. p. 250</ref>;
+			<author>Callim.</author> 
+			<ref>xci</ref>; 
+			<author>Leon. Tar.</author> 
+			<ref>xci</ref>,
+			<work>Gk. Αnthol.</work> 
+			<ref>i. p. 178</ref> 
+			<quotation>τὸν αἰθυίης πλείονα νηξάμενον</quotation>: 
+			<author>Anon.</author>
+			<work>ibid.<insert>Greek Anthology</insert></work> <!-- I inserted the full name of the work because it was not explicit, "ibid" means "the same work", but once it goes through the computer that reference would be lost -->
+			<ref>iv. p. 143 </ref>
+			<quotation>σήραγγος ἀλίκτυπον ὁς τόδε ναίεις εὐστιβές ἀἰθυίαις ἰχθυβόλοισι λέπας.</quotation> 
+		</ancient_authority>
+
+		<ancient_authority id="6" type="philosophy">
+			<author>Phile</author>,
+			<work>De Anim. </work>
+			<ref>Pr. 68o</ref>, 
+			<summary>is hostile to πελαργός and κρέξ</summary>. 
+		</ancient_authority>
+
+		<ancient_authority id="7" type="scientific">
+			<summary>Is said to be deaf and dumb</summary>, 
+			<author>Aristoph.</author> 
+			<work>Hist. Anim. Epit.</work> 
+			<ref>i. 141</ref>. 
+		</ancient_authority>
+
+		<ancient_authority id="8" type="myth">
+			<summary>The metamorphosis of Hyperippa, daughter of Munychus</summary>,
+			<author>Νicander ap. Anton. Lib.</author> 
+			<work>Met.</work> 
+			<ref>14.</ref> 
+		</ancient_authority>
+
+		<ancient_authority id="9" type="poetry">
+			<author>Αrat. </author>
+			<work>Phen.</work>
+			<ref>918</ref>, 
+			<summary>a sign of rain</summary>; 
+			<quotation>πολλάκις δʼἀγριάδες νῆσσαι εἰναλίδιναι οἴθυιαι χερσαῖα τινάσσονται ππrερύγεσσιν</quotation>: 
+			
+		<ancient_authority id="10" type="scientific">cf 
+			<author>Theophr. </author>
+			<work>De Sign.</work>
+			<ref>ii. 28</ref>, 
+			<summary><insert>a sign of rain</insert></summary>
+		</ancient_authority> 
+
+		<ancient_authority id="11" type="poetry">
+			Virg. Georg. i 362. 
+		</ancient_authority>
+
+		Α lοng but unsatisfactory description in Dion. De Avib. ii. 5. 
+
+		Α title or epithet of Athene, Paus.  1.5.3 , 1.41.6. 
+
+		Said to be the name of a horse in Mnasalc. xiii.Gk. Anthol. i. p. 125. See also δύππτης, λάρoς.
+
+	</ancient_authorities>
 		
 	</glossary-entry>
 </edition>
