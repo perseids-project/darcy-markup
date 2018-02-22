@@ -6,24 +6,27 @@
 		<conclusion>Νight-Herοn</conclusion>
 	</decision>
 
-	<resasoning>
-		<ancient_authority>Οd. i. 320 ἀπέβη γλαυκῶπις Ἀθήνη, ὄρνις δʼ ὡς ἀνοπαῖα διέπτατο.</ancient_authority> 
+	<bird>
+		<insert><species>Νight-Herοn</species></insert> 
 
-		For various explanations and Scholia, see 		
-		<modern_authority> 
-			<!--who are these people??-->
-			Steph. Thes. (ed. 1821), Lidd. and Sc., ἄc.
-		</modern_authority>
+		<resasoning>
+			<ancient_authority>Οd. i. 320 ἀπέβη γλαυκῶπις Ἀθήνη, ὄρνις δʼ ὡς ἀνοπαῖα διέπτατο.</ancient_authority> 
 
-	 	Αccording to 
-	 	<modern_authority> Rumpf, De aedibus Homericis, ii. p. 332</modern_authority>, 
-	 	<modern_authority> Giessen, 1857</modern_authority>, 
-	 	<modern_authority> Νetolicka</modern_authority>, 
-	 	<modern_authority> Νaturh. aus Hom. p. 11</modern_authority>, <modern_authority>Buchholz, Hom. Realien, p. 126</modern_authority>, 
-	 	<!--dont know what this is-->
-	 	the Swallow, from its passing in and out through the smoke-hole, παρὰ τὸ διατρίβειν ἐν ταῖς ὀπαῖς <ancient_authority>(Ηerodian)</ancient_authority>.
-	 </resasoning>
+			For various explanations and Scholia, see 		
+			<modern_authority> 
+				<!--who are these people??-->
+				Steph. Thes. (ed. 1821), Lidd. and Sc., ἄc.
+			</modern_authority>
 
+		 	Αccording to 
+		 	<modern_authority> Rumpf, De aedibus Homericis, ii. p. 332</modern_authority>, 
+		 	<modern_authority> Giessen, 1857</modern_authority>, 
+		 	<modern_authority> Νetolicka</modern_authority>, 
+		 	<modern_authority> Νaturh. aus Hom. p. 11</modern_authority>, <modern_authority>Buchholz, Hom. Realien, p. 126</modern_authority>, 
+		 	<!--dont know what this is-->
+		 	the Swallow, from its passing in and out through the smoke-hole, παρὰ τὸ διατρίβειν ἐν ταῖς ὀπαῖς <ancient_authority>(Ηerodian)</ancient_authority>.
+		 </resasoning>
+	</bird>
 	
 	</glossary-entry>
 </edition>
