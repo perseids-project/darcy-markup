@@ -8,16 +8,14 @@
 
 	<bird>		
 		<insert><species> Ruffs </species></insert> 
+		<reasoning>
 		The identification, first suggested by
-
 		<!--is Cuvier ancient authority???-->
 		<modern_authority>
 			Cuvier(randidier's Pliny, loc. cit.)
-		</modern_authority> is certain
-
-		<reasoning>
-			the combats or hilling' of Ruffs being unmistakeably described : for modern descriptions, see <modern_authority> Montagu, quoted in Yarrell, 4th ed. vol. iii. p. 428.</modern_authority>
-			<!--not sure whats going on here--> In other words, though Pausanias and Aelian undoubtedly alluded to the Ruff, I do not for a moment believe that <ancient_authority>Moschus did so. Vide s.v. αντίψυχοι.</ancient_authority>
+		</modern_authority> 
+		is certainthe combats or hilling' of Ruffs being unmistakeably described : for modern descriptions, see <modern_authority> Montagu, quoted in Yarrell, 4th ed. vol. iii. p. 428.</modern_authority>
+		<!--not sure whats going on here--> In other words, though Pausanias and Aelian undoubtedly alluded to the Ruff, I do not for a moment believe that <ancient_authority>Moschus did so. Vide s.v. αντίψυχοι.</ancient_authority>
 		</reasoning>
 	</bird>
 
