@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<edition number="2">
+    <glossary-entry> <greek-lemma>ΑΙἼΘΥΙΑ</greek-lemma><transliteration>(aithyia)</transliteration>
+    <decision>
+        <conclusion>Α Seabird</conclusion>,
+        <confidence>especially</confidence>
+        <conclusion>a Shearwater, Lat. mergus</conclusion>,
+    </decision>
+The 
+<bird>
+        <species><english-name>Great Shearwater</english-name>, 
+        <latin-name>Puffinus Kuhli</latin-name> 
+        <modern_authority>(Boie)</modern_authority>
+            <alternate-modern-names>Mod. Gk. ἀρτένης, μῆχος, μοῑχος, μῦχος: Ital. margun, berta, fallante, aipú</alternate-modern-names></species>
+</bird>, etc.; and the
+        
+<bird>
+    <english-name>Little <insert>Shearwater</insert></english-name>
+</bird>
+    or 
+        
+<bird><english-name>Manx Shearwater</english-name>, <latin-name>P. anglorum</latin-name>, <modern_authority>Will.</modern_authority></bird> (
+        
+ <bird>
+            <darcy-comment>or its Mediterranean form</darcy-comment>, 
+            <latin-name>P. yelkuan</latin-name>):
+ </bird> 
+        
+        but the name, like mergus, and like Ital. margun, has at times a vaguer or a wider meaning. The name Shearwater harks back to Sir Thomas Browne's Norfolk Birds (1671), and to Willughby's Ornithologia (1676, p. 252): Willughby having had it, with a description and drawing of the bird, from Browne. Vide s.v. Διομήδειοι ὄρνιθες. See also s.vv. <cross-ref>ἀνοπαῖα, δύπτης, ἐρωδιός, λάρος, πώυγξ, φώυξ</cross-ref>. 
+
+αἴθυια is not the Blackbacked Gull (as Sundevall takes it to be), for that bird is rare in the Mediterranean; nor the Skua (as Schneider says), which does not dive, nor does it breed in the Mediterranean; nor, assuredly, is it a Diver or a Grebe (as Groshans suggests). αἴθυια corresponds in general to Lat. mergus; the S. Italian aipú is probably a survival of the old Greek word, and is used (according to Giglioli) sometimes of a Shearwater and sometimes of a Gull. On Shearwaters in Greece see (int. al.) Krüper, Die Sturmvögel der Cykladen, Jl.f.Orn. 1863, pp. 327-338. 
+
+Corat (Ἄτ. iv, p. 212) gives μέννονι, ἡ αἴθυια (=mergus), βαρβάρως πρῶ μέργια, ἔπειτα τρὶς βαρβάρως μέννοια. In Hesychius, αἴθυια is glossed by κορώναι εἰνάλιαι (q.v.), i.e. the Little or Manx Shearwater. Mentioned in Arrian's Periplus 21 (32 M), along with λάροι and κορώναι αἱ θαλάσσιοι, in a description of the birds at the tomb of Achilles. Mentioned with κολυμβίς in Arist. HA. i.487a 23; and with λάρος ὁ λευκός, κέπφος, and χαραδριός, ib. viii.593 b 14. Cyranid. αἴθυια. πτηνὸν θαλάσσιον ἀκόρεστον, πᾶσι γνωστόν. 
+
+A bird of great voracity, Dion. de Av. ii.6 αἱ δ'αἴθυιαι τροφῆς μὲν ἀεὶ πλείστης ὀρέγονται, καὶ οὐκ ἄν ποτε λιμώττονται: cf. Plin. xi.79 instatiabilia animalium... ut ... inter aves mergis; Ovid Met. xi. 753 spatiosum in guttura mergum. The flesh is useless or nauseous, Galen. de fac. simpl. 11; cf. Horat. Sat. ii. 2.51 si quis nunc mergos suaves edixerit assos, etc. Its liver as a medicine, Diosc. ii.55 (Wellmann).
+
+Mariners in a storm are said to be ἴκελοι κολθμβίσιν αἰθυίηισιν, Arat. 296: cf. Apoll. Rhod. iv. 966 ἐνθ' αἱ μὲν κατὰ βένθος ἀλίγκιαι αἰθυίηισιν | δῦνον. Frequent in the Anthology, especially in connexion with shipwreck, e.g. Glauc. vii 285 ὄλετο γὰρ σὺν νηὶ, τὰ δʼ ὁστέα ποῦ ποτʼ ἐκείνου πύθεται, αἰθυίαις γνωστὰ μόναις ἐνέπειν: cf. Marc. Arg. ib. vii 374; Leon Tar. vii 295 τὸν αἰθυίης πλείονα νηξάμενον: Callim. Ep. 59 αἴθυίηι δ'ἶσα θαλασσοπορεῖ: Anon. ib. vi. 23 σήραγγοσ ἁλίκτυπον ὃς τόδε ναίεις | εὐστιβές αἰθυίαις ἰχθυβόλοισι λέπας: Callim. h. Del. 12 αἰθυίης καὶ μᾶλλον ἐπίδρομον ἤεπερ ἵπποις.
+
+Among Latin poetical references, see Lucret. v. 1079 ossifragae mergeique, marinis Fluctibus in salso victum vitamque petenteis, Longe alias alio iaciunt in tempora voces. But Ovid (Met. xi. 793) has a different bird in mind: Fecit amor maciem: longa internodia crurum, Longa manet cervix, caput est a corpore longe; Aequora amat, nomenque tenet quia mergitur illo.
+
+A sign of storm; Arat. 918 πολλάκι δʼἀγριάδες νῆσσαι εἰναλίδιναι | αἴθυιαι χερσαῖα τινάσσονται ππrερύγεσσιν; cf. Theophrast. Sign. ii. 28; Ael. HA. vii. 7; Lucret. v. 1083; also Virg. G. i. 361 cum medio celeres revolant ex aequore mergi, clamoremque ferunt ad littora; Plin. xviii (87) 35 [praesagiunt ventum] mergi maria aut stagna fugientes.
+
+Most of the above citations fit the Shearwater fairly well. On the other hand the Shearwater nests underground and lays but one egg, which does not tally with Arist. HA. 542 b 17 (a passage, however, which appears to be either spurious or corrupt) ἡ δʼ αἴθυια καὶ οἱ λάροι τίκτουσι μέν ἐν ταῖς περὶ θάλατταν πέτραις, τὸ μέν πλῆθος δύο ἢ τρία· ἀλλʼ ὁ μέν λάρος τοῦ θέρους, ἡ δʼ αἴθυια ἀρχομένου τοῦ ἔαρος [cf. Plin. x (32) 48] εὐθὺς ἐκ τροπῶν. οὐδέτερον δέ φωλεύει.
+
+αἴθυια is said H. Anim. Ep. i 141, and by Dion. de Av. l.c., καὶ μόνας ταύτας ἐκ πάντων φασὶ τῶν πτηνῶν μήτε ἀφιέναι φωνὴν μήτε ἀκούειν δύνασθαι: and in general the Shearwaters are silent birds, save that certain species, such as the Little Shearwater, are clamorous by night in the breeding season.
+
+Myth and Legend.- The metamorphosis of Aesacus, son of Priam, into the bird mergus, Ovid Met. xi. 783 sq.; and of Hyperippa, daughter of Munychus, into the bird αἴθυια, Anton. Lib. Met. 14.
+
+Associated with Athene (cf. ἀνοπαῖα), Od. v. 337 αἰθυίηι δ'εἰκῦια ποτῆ ἀνεδύσατο λίμνης, and 353 ἂψ ἐς πόντον ἐδύσατο, | αἰθυίηι εἰκυῖα. A title or epithet of Athene, Paus. i.5.3, i. 41.6; Lycoph. Cass. 359, αἴθυια κόρη: especially at Megara, Hesych. s.v. ἐν δ'Αἴθυια. 
+
+Hostile to πελαργός and to κρέξ, Ael. iv. 5, Phile 680. Its gall a poison to the hedgehog, Ael. vi.46. The magical properties of its eggs and blood, Cyranid. 3a.
+
+Fable.-νυκτερὶς καὶ βάτος καὶ αἴθυια, Aes. 306 (ὁ μῦθος ὅτι περὶ ἅ σπουδάζομεν τούτοις ἐς ὕστερον περιπίπτομεν).
+
+</glossary-entry>
+</edition>
+
+
+
+
+
+
+
+
+
+

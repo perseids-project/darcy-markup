@@ -1,162 +1,201 @@
-<edition number="1">
-	<glossary-entry greek-lemma="αἴθυια" transliteration="aithyia">A poetic word, of uncertain or indefinite meaning.
+﻿<edition number="1">
+	<glossary-entry> <greek-lemma>αἴθυια</greek-lemma><transliteration>(aithyia)</transliteration>. A poetic word, of uncertain or indefinite meaning.
 	<decision>
-		<confidence>probably</confidence>
-		<conclusion>a large gull</conclusion>
+		<confidence>Probably</confidence>
+		<conclusion>a large Gull</conclusion>,
 	</decision>
 
 	e.g.<bird> 
-			<species> Larus marinus, the Black-headed Gull </species> 
-			<modern_authority> Sundevall </modern_authority>
-			<reasoning> rare in Greece </reasoning>
+			<latin-name>Larus marinus</latin-name>, the <english-name>Black-backed Gull </english-name>, 
+			<modern_authority> Sundevall </modern_authority>,
+			<insert><reasoning> rare in Greece </reasoning></insert> or
 		</bird>
 
 		<bird>
-			<species> L. argentalus, the Herring gull </species>
-			<modern_authority> Kruper </modern_authority>
+			<latin-name>L. argentatus</latin-name>, the <english-name>Herring Gull </english-name>
+			<modern_authority> Krüper </modern_authority>, the former being rare in Greece.
 			<reasoning>
 				<insert>abundant during the winter and breeds about the middle of April </insert>
-			</reasoning>
+			</reasoning> 
 		</bird>
 
 		<bird> 
-			<modern_authority> Netolicka </modern_authority>'s Hypothesis
-			<species> Merganser </species> 
-			<reasoning>
-				<insert>Do not tally with 
-					<ancient_authority> Aristotle </ancient_authority>
-				</insert>
-			</reasoning>
-		</bird>
+			<modern_authority>Netolicka </modern_authority>'s hypothesis of the
+			<latin-name>Merganser </latin-name>
+			<insert><reasoning>
+				Do not tally with 
+					<ancient_authority> Aristotle <insert>Historia Animalium 5. 9, 542b</insert></ancient_authority>
+				
+			</reasoning></insert>
+		</bird> and that of 
 
 		<bird>
-			<modern_authority> Groshans </modern_authority>'s Hypothesis
-			<species> Diver or Grebe </species> 
+			<modern_authority>Groshans </modern_authority> that it was a
+			<english-name>Diver</english-name> or 
+			<insert><reasoning>
+				do not tally with 
+				<ancient_authority> Aristotle <insert>Historia Animalium 5. 9, 542b</insert></ancient_authority>:
+			</reasoning></insert>
+		</bird>
+			
+		<bird>
+			<english-name>Grebe</english-name>,
 			<reasoning>
-				Do not tally with 
-				<ancient_authority> Aristotle </ancient_authority>
+				do not tally with 
+				<ancient_authority> Aristotle <insert>Historia Animalium 5. 9, 542b</insert></ancient_authority>:
 			</reasoning>
 		</bird>
 
 		<bird>
 			<modern_authority> Schneider </modern_authority>'s identification with
-			<species> Skua, Lestris Parasiticus </species> 
+			<english-name>Skua</english-name>, <latin-name>Lestris Parasiticus </latin-name>
 			<reasoning>
-				fails inasmuch as the latter does not dive <modern_authority>(vide Buchholz,
-				op.cit. pp. 112, 113) </modern_authority> 
-				nor does it breed in the Mediterranean
-			</reasoning> 
+				fails inasmuch as the latter does not dive <modern_authority>(vide Buchholz, op.cit. pp. 112, 113) </modern_authority> 
+			</reasoning>
+				<reasoning>nor does it breed in the Mediterranean
+			</reasoning>.
 		</bird>
 		
 		The Herring Gull is abundant during the winter and breeds about the middle of April: 
 		<bird>
-			<species>Common Tern (Sterna anglica)</species>
+			the <english-name>Common Tern</english-name> (<latin-name>Sterna anglica</latin-name>)
 			<reasoning>
 				lays about the same time <insert>as the Herring gull</insert>
-				<modern_authority> Krüper </modern_authority> 
-				but in the lagoons and not on the cliffs.
-			</reasoning>
+				(<modern_authority> Krüper </modern_authority> )
+				but in the lagoons and not on the cliffs
+			</reasoning>.
 		</bird> 
 
-	<ancient_authorities>
-		<ancient_authority id="0" type="myth">  
-			<work>Οdyssey</work> <!-- Technically, the author here is Homer, but usually people just cite "Odyssey" or Iliad without an author -->
-			<ref>5. 337 and 353</ref>
+		<ancient_authority  type="myth">
+			<work>Od.<normalized>Odyssey</normalized></work>
+			<ref>v. 337, 353<normalized>5. 337 and 353</normalized></ref>.  <!-- As per our conversation, I removed the ID numbers on ancient authorities. I will simply insert the ancient authority within the reasoning when it is cited. Also, to preserve the state of the original text while clarifying the references, I will wrap the clarified references in a <normalized-ref> tag and keep the abbreviated and otherwise unclear references as text -->
 			<URL> http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:1.1-1.43</URL>				
 		</ancient_authority> 
 
-		<ancient_authority id="1" type="scientific"> 
-			<author>Aristotle</author>
-			<work>History of Animals</work>,<ref> 5.9, 542b</ref>
-			<quotation>"The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring, just after the winter solstice, and it broods over its eggs as birds do in general. And neither of these birds resorts to a hiding-place." (ἡ δʼ αἴθυια καὶ οἱ λάροι τίκτουσι μέν ἐν ταῖς περὶ θάλατταν πέτραις, τὸ μέν πλῆθος δύο ἢ τρία· ἀλλʼ ὁ μέν λάρος τοῦ θέρους, ἡ δʼ αἴθυια ἀρχομένου τοῦ ἔαρος...) </quotation>
+		<ancient_authority type="scientific">
+			<author>Arist. <normalized>Aristotle</normalized></author>
+			<work>H.A.<normalized>Historia Animalium</normalized></work>
+			<ref>v. 9, 542b<normalized>5. 9. 542b</normalized></ref>
+			<quotation><translation>"The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring, just after the winter solstice, and it broods over its eggs as birds do in general. And neither of these birds resorts to a hiding-place." </translation>(ἡ δʼ αἴθυια καὶ οἱ λάροι τίκτουσι μέν ἐν ταῖς περὶ θάλατταν πέτραις, τὸ μέν πλῆθος δύο ἢ τρία· ἀλλʼ ὁ μέν λάρος τοῦ θέρους, ἡ δʼ αἴθυια ἀρχομένου τοῦ ἔαρος...) </quotation>
 		</ancient_authority>
 					
-		<ancient_authority id="2" type="scientific">
-			[cf. <emph>Mergus</emph>, 
-			<author>Plin.</author> 
-			<ref>x. 32 (48)</ref>] <!--  this bit  in Greek is actually Darcy's comment on the Pliny passage, it means more or less "Pliny says the same thing as Aristotle and he likely got his information from the same source" I don't think we should mark that up as anything-->εὐθὺς ἐκ τροπῶν. οὐδέτερον δέ φωλεύει. Also idem 
-			<ref>1, 487</ref>;<ref>8.3</ref>, <ref>593 b.</ref> <!-- the three refs at the end are other bits of Pliny that says the same thing as the previous ref, so I don't think  they need another author  tag since it's the same. Also, there is only one work preserved by Pliny, so people don't bother writing the title. In case that's important, the title is "Naturalis Historia"--> 
+		[cf. Mergus, 
+		<ancient_authority type="scientific">
+			<author>Plin.<normalized>Pliny</normalized></author>
+			<normalized><work>Naturalis Historia</work></normalized> <!-- In cases like this where a part of the reference is assumed by Darcy, I made it explicit and wrapped that in <normalized> tags -->
+			<ref>10. 32 (48)</ref>] <!--  this bit  in Greek is actually Darcy's comment on the Pliny passage, it means more or less "Pliny says the same thing as Aristotle and he likely got his information from the same source" I don't think we should mark that up as anything-->εὐθὺς ἐκ τροπῶν. οὐδέτερον δέ φωλεύει. Also idem 
+			<ref>1. 487</ref>;<ref>8.3</ref>, <ref>593 b.</ref> <!-- the three refs at the end are other bits of Pliny that says the same thing as the previous ref, so I don't think  they need another author  tag since it's the same. Also, there is only one work preserved by Pliny, so people don't bother writing the title. In case that's important, the title is "Naturalis Historia"--> 
 		</ancient_authority>
 					
 					
-		<ancient_authority id="3" type="scientific">
+		<ancient_authority type="scientific">
 			<author>Αrrian</author>, 
-			<work>Peripl.</work> 
+			<work>Peripl. <normalized>Periplus</normalized></work> 
 			<ref>ed. Didot, 1855, i. p. 395</ref>,
 			<summary>names it with λάροι and κορῶναι αἱ θαλάσσιοι</summary>
+			
 		</ancient_authority>, and 
 
-		<ancient_authority id="4" type="lexicography">
-			<author>Hesych.</author>
+		<ancient_authority type="lexicography">
+			<author>Hesych.<normalized>Hesychius</normalized></author>
+			<normalized><work>Lexicon</work></normalized>
+			<normalized><ref>aithyia</ref></normalized>
 			<summary>renders aἴθυιαι by εἰνάλιαι κορῶναι</summary>
 		</ancient_authority>. Frequent in the 
 
-		<ancient_authority id="5" type="poetry">
-			<work>Gk. Anthol.<!-- In this particular case, there is one work containing multiple authors, instead of the other way around. The Greek Anthology is an ancient collections of poems from various authors --></work>; e.g. 	
-			<author>Glauc.</author> 
-			<ref>vi, vol. iii. p. 58</ref> 
-			<quotation>ὄλετο γὰρ σὺν νηὶ, τὰ δʼ ὁστέα ποῦ ποτʼ ἐκείνου fπύθεται, αἰθυίαις γνωστὰ μόναις ἐνέπειν,</quotation> cf. <!-- cf. means "confer" ("compare", it just means that the list that follows are similar passages -->
-			<author>Marc. Arg.</author> 
-			<ref>xxxi,ibid. ii. p. 250</ref>;
-			<author>Callim.</author> 
-			<ref>xci</ref>; 
-			<author>Leon. Tar.</author> 
-			<ref>xci</ref>,
-			<work>Gk. Αnthol.</work> 
-			<ref>i. p. 178</ref> 
-			<quotation>τὸν αἰθυίης πλείονα νηξάμενον</quotation>: 
-			<author>Anon.</author>
-			<work>ibid.<insert>Greek Anthology</insert></work>
-			<ref>iv. p. 143 </ref>
-			<quotation>σήραγγος ἀλίκτυπον ὁς τόδε ναίεις εὐστιβές ἀἰθυίαις ἰχθυβόλοισι λέπας.</quotation> 
+		<ancient_authority  type="poetry">Gk. Anthol. e.g. Glauc. vi, vol. iii. p. 58; Marc. Arg.xxxi,ibid. ii. p. 250; Callim.xci; Leon. Tar.xci; Gk. Anthol. i. p. 178; Anon. ibid. iv. p. 143
+			<normalized>
+			<work>Greek Anthology<!-- In this particular case, there is one work containing multiple authors, instead of the other way around. The Greek Anthology is an ancient collections of poems from various authors --></work>; e.g. 	
+			<ref>6.23</ref>
+			</normalized>
+			
+			<normalized>
+			<work>Greek Anthology</work>
+			<author>Mnasalcas</author>
+			<ref>7.212</ref>
+			</normalized>
+			
+			<normalized>
+			<work>Greek Anthology</work>
+			<ref>7.285</ref>
+			<quotation>ὄλετο γὰρ σὺν νηὶ, τὰ δʼ ὁστέα ποῦ ποτʼ ἐκείνου πύθεται, αἰθυίαις γνωστὰ μόναις ἐνέπειν,</quotation> cf. <!-- cf. means "confer" ("compare", it just means that the list that follows are similar passages -->
+			</normalized>
+			
+			
+			<normalized>
+			<work>Greek Anthology</work>
+			<ref>7.374</ref>
+			</normalized>
+			
+			<normalized>
+			<work>Greek Anthology</work> 
+			<ref>10.8</ref> 
+			</normalized>
+			
+
 		</ancient_authority>
 
-		<ancient_authority id="6" type="philosophy">
-			<author>Phile</author>,
-			<work>De Anim. </work>
+		<ancient_authority type="philosophy">
+			<author>Phile.<normalized certainty="low">Philemon</normalized></author>, <!-- In this particular case I am not sure this normalization is correct so I am marking that up as uncertainty -->
+			<work>De Anim.<normalized certainty="low">De Animalibus</normalized></work>
 			<ref>Pr. 68o</ref>, 
 			<summary>is hostile to πελαργός and κρέξ</summary>. 
 		</ancient_authority>
 
-		<ancient_authority id="7" type="scientific">
+		<ancient_authority type="scientific">
 			<summary>Is said to be deaf and dumb</summary>, 
-			<author>Aristoph.</author> 
-			<work>Hist. Anim. Epit.</work> 
+			<author>Aristoph.<normalized>Aristophanes</normalized></author> 
+			<work>Hist. Anim. Epit.<normalized>Historia Animalium Epitome</normalized></work> 
 			<ref>i. 141</ref>. 
 		</ancient_authority>
 
-		<ancient_authority id="8" type="myth">
+		<ancient_authority type="myth">
 			<summary>The metamorphosis of Hyperippa, daughter of Munychus</summary>,
-			<author>Νicander ap. Anton. Lib.</author> 
-			<work>Met.</work> 
-			<ref>14.</ref> 
+			<author>Νicander ap. Anton. Lib.<normalized>Nicander in Antoninus Liberalis</normalized></author> 
+			<work>Met.<normalized>Metamorphoses</normalized></work> 
+			<ref>14</ref>.
 		</ancient_authority>
 
-		<ancient_authority id="9" type="poetry">
-			<author>Αrat. </author>
-			<work>Phen.</work>
+		<ancient_authority type="poetry">
+			<author>Αrat. <normalized>Aratus</normalized></author>
+			<work>Phen.<normalized>Phaenomena</normalized></work>
 			<ref>918</ref>, 
 			<summary>a sign of rain</summary>; 
 			<quotation>πολλάκις δʼἀγριάδες νῆσσαι εἰναλίδιναι οἴθυιαι χερσαῖα τινάσσονται ππrερύγεσσιν</quotation>: 
-			
-		<ancient_authority id="10" type="scientific">cf 
-			<author>Theophr. </author>
-			<work>De Sign.</work>
-			<ref>ii. 28</ref>, 
-			<summary><insert>a sign of rain</insert></summary>
+		</ancient_authority>
+		
+		<ancient_authority type="scientific">cf 
+			<author>Theophr. <normalized>Theophrastus</normalized></author>
+			<work>De Sign.<normalized>De Signibus</normalized></work>
+			<ref>ii. 28<normalized>2.28</normalized></ref>, 
+			<insert><summary>a sign of rain</summary></insert>
 		</ancient_authority> 
 
-		<ancient_authority id="11" type="poetry">
-			Virg. Georg. i 362. 
+		<ancient_authority type="poetry">
+			<author>Virg.<normalized>Virgil</normalized></author>
+			<work>Georg.<normalized>Georgics</normalized></work>
+			<ref>i.362<normalized>1.362</normalized></ref>.
 		</ancient_authority>
 
-		Α lοng but unsatisfactory description in Dion. De Avib. ii. 5. 
-
-		Α title or epithet of Athene, Paus.  1.5.3 , 1.41.6. 
-
-		Said to be the name of a horse in Mnasalc. xiii.Gk. Anthol. i. p. 125. See also δύππτης, λάρoς.
-
-	</ancient_authorities>
+		<ancient_authority type="scientific">
+			<summary>Α lοng but unsatisfactory description</summary> in 
+			<author>Dion.<normalized>Dionysius</normalized></author>
+			<work>De Avib.<normalized>De Avibus</normalized></work>
+			<ref>ii.5<normalized>2.5</normalized></ref>.
+		</ancient_authority>
 		
+		<ancient_authority type="geography">
+			<summary>Α title or epithet of Athene</summary>, 
+			<author>Paus.<normalized>Pausanias</normalized></author>
+			<ref>1.5.3 </ref>, 
+			<ref>1.41.6</ref>. 
+		</ancient_authority>
+		
+		<ancient_authority type="poetry">
+			<summary>Said to be the name of a horse</summary> in 
+			<author>Mnasalc. <normalized>Mnasalcas</normalized></author>
+			<ref>xiii.Gk. Anthol. i. p. 125.<normalized>7.212</normalized></ref> 
+		</ancient_authority>
+	<cross-ref>See also δύππτης, λάρoς.</cross-ref>
 	</glossary-entry>
 </edition>
