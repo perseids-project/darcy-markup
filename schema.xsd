@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <!-- attributes -->
+  <xs:attribute name="author" type="xs:string"/>
+  <xs:attribute name="comment" type="xs:string"/>
+  <xs:attribute name="normalized-ref" type="xs:string"/>
+  <xs:attribute name="type" type="xs:string"/>
+  <xs:attribute name="url" type="xs:string"/>
+  <xs:attribute name="work" type="xs:string"/>
+  <xs:attribute name="certainty" type="xs:string"/>
+
+  <xs:attribute name="number" type="xs:int"/>
+
+  <!-- simple elements -->
+  <xs:element name="common-name" type="xs:string"/>
+  <xs:element name="conclusion" type="xs:string"/>
+  <xs:element name="confidence" type="xs:string"/>
+  <xs:element name="cross-reference" type="xs:string"/>
+  <xs:element name="greek-lemma" type="xs:string"/>
+  <xs:element name="insert" type="xs:string"/>
+  <xs:element name="scientific-name" type="xs:string"/>
+  <xs:element name="transliteration" type="xs:string"/>
+  <xs:element name="quotation" type="xs:string"/>
+  <xs:element name="translation" type="xs:string"/>
+  <xs:element name="summary" type="xs:string"/>
+
+  <!-- complex elements -->
+  <xs:element name="decision">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="confidence"/>
+        <xs:element ref="conclusion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="citation">
+    <xs:complexType mixed="true">
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="quotation" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="translation" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="summary" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:choice>
+
+      <xs:attribute ref="normalized-ref" use="required"/>
+      <xs:attribute ref="certainty"/>
+      <xs:attribute ref="url"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="ancient-authority">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="citation" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute ref="type"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="modern-authority">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="citation" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute ref="type"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="reasoning">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="ancient-authority" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="modern-authority" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute ref="comment"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="bird">
+    <xs:complexType mixed="true">
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="scientific-name" minOccurs="0"/>
+        <xs:element ref="common-name" minOccurs="0"/>
+        <xs:element ref="modern-authority" minOccurs="0"/>
+        <xs:element ref="reasoning" minOccurs="0"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="heading">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="greek-lemma"/>
+        <xs:element ref="transliteration"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="glossary-entry">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="heading"/>
+        <xs:element ref="decision"/>
+        <xs:element ref="bird" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="ancient-authority" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- root -->
+  <xs:element name="edition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="glossary-entry" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute ref="number" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
